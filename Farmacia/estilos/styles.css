@@ -31,6 +31,8 @@ body{
     height: 200px;
     width: auto;
     transition: all 0.3s;
+    margin-top: 29px;
+    
     
 }
 
@@ -90,7 +92,6 @@ body{
 
     animation: cambio 20s infinite alternate;
     animation-timing-function: ease-in;
-    
 
 }
 .slider li{
