@@ -23,25 +23,18 @@ body{
 
 .header .logo{
     cursor: pointer;
-   
+    margin-left: -100px;
 }
 
 .header .logo img{
-    
-    height: 200px;
+    height: 180px;
     width: auto;
-    transition: all 0.3s;
-    margin-top: 29px;
-    
-    
-}
-
-.header .logo img:hover{
-    transform: scale(1.2)
+    margin-top: 29px;    
 }
 
 .header .nav-list{
     list-style: none;
+    margin-right: -100px;
 }
 
 .header .nav-list li{
@@ -64,40 +57,49 @@ body{
     color:#2c9529 ;
 }
 
+.header .nav-list li a i{
+    padding: 8px;
+    height: 42.5px;
+    font-size: 23px;
+}
+
 .header .barra #bar{
     width:500px;
-    height: 30px;
+    height: 33px;
     border-radius: 50px;
     border:2px solid #2c9529;
     outline: none;
-
 }
 
 .header .barra button{
-    margin-left: -30px;
+    margin-left: -33px;
     cursor: pointer;
     background: none;
     border: none; 
     color: #2c9529;
 }
+
 .slider {
     overflow: hidden;
-    width:95% ;
+    width: 100%;
+    height: 86.4vh;
     margin: auto;
 }
+
 .slider ul{
     display: flex;
     width: 400%;
     padding: 0;
-
     animation: cambio 20s infinite alternate;
     animation-timing-function: ease-in;
 
 }
+
 .slider li{
     width: 100%;
     list-style: none;
 }
+
 .slider img{
     width: 100%;
 }
@@ -114,5 +116,11 @@ body{
 
     75% { margin-left: -300%; }
     100% { margin-left: -300%; }
-    
 }
+
+/** COMIENZAN LAS CATEGORIAS**/
+.categorias .titulo-categorias h2{
+    margin-top: 30px;
+    margin-left: 30px;   
+}
+
